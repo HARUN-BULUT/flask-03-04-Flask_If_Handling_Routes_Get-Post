@@ -16,7 +16,7 @@ def home():
 # and assign to the static route of ('about')
 @app.route('/about')
 def about():
-    return '<h1>This is my about page harun </h1>'
+    return '<h1>This is my about page Harun </h1>'
 
 
 # Create a function named error which returns a formatted string '<h1>Either you encountered an error or you are not authorized.</h1>' 
@@ -78,9 +78,9 @@ def greet(name):
 # Create a function named list10 which creates a list counting from 1 to 10 within `list10.html` 
 # and assign to the route of ('/list10'). 
 # Please find a template html file named `list10.html` which shows a list counting from 1 to 10 under `templates` folder 
-@app.route('/list10')
-def list10():
-    return render_template('list10.html')
+@app.route('/list20')
+def list20():
+    return render_template('list20.html')
 
 
 
